@@ -6,14 +6,13 @@
 require('./modules/menu.js');
 require('./modules/menu-all-products.js');
 require('default-passive-events'); // Makes {passive: true} by default when EventListenerOptions are supported
-// require('./react-edit.jsx'); // react for use of admin
 
 
 import 'babel-polyfill';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import Vue from 'vue';
 import Vuex from 'vuex';
-// import VueGmaps from 'vue-gmaps';
+
 import ProductsMenu from './modules/products-menu.vue';
 import WishListItemsQuantity from './wishlist/items-quantity.vue';
 import WishListAddButton from './wishlist/add-button.vue';
@@ -44,15 +43,6 @@ Raven.config('https://e6a8c5dca7f44b309217396fbac835da@sentry.io/1210221', {
 
 document.addEventListener('DOMContentLoaded', () => {
     Vue.use(Vuex, VueAwesomeSwiper);
-    // Vue.use(VueGmaps, {
-    //     key: 'AIzaSyAXPiiK1ivw3qvjaH0tdJ7O0AXgjolS3HA',
-    //     libraries: ['places'],
-    //     version: '3',
-    //     Autocomplete: {
-    //         types: 'cities'
-    //     },
-    //     place: 'Жодино',
-    // });
     new Vue({
         el: '#vue-root',
         store,
