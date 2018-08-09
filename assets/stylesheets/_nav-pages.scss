@@ -1,0 +1,63 @@
+.nav-pages {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  .nav-pages-elem {
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 0;
+    border: 1px solid #BEBEBE;
+    width: 48px;
+    height: 48px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+      span {
+        line-height: 12px; // test
+        text-decoration: none;
+        color: #000;
+        @include Gilroy_Bold;
+        font-size: 16px;
+        //line-height: 100%;
+        letter-spacing: 0.96px;
+      }
+    &.next-pages {
+      margin-right: 0;
+        &:before {
+          content: image-url('icons/nav-arrow.svg');
+          margin-bottom: 1px;
+        }
+    }
+    &.prev-pages {
+      transform: rotateZ(180deg);
+      &:before {
+        content: image-url('icons/nav-arrow.svg');
+        margin-bottom: 1px;
+      }
+    }
+    &:hover {
+      border: 3px solid #000;
+    }
+    &.active {
+      border: 3px solid #000;
+    }
+  }
+  .nav-pages-gap {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    span{
+      text-decoration: none;
+      color: #000000;
+      @include Gilroy_Bold;
+      font-size: 17px;
+    }
+  }
+}

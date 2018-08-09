@@ -1,0 +1,88 @@
+$largeDisplay: 1070px;
+
+// Media Queries
+//     $phone : '(max-width: 480px)';
+//     $tablet-portrait: '(max-width: 767px)';
+//     $tablet-landscape: '(min-width: 768px) and (max-width: 979px)';
+//     $large-desktop: '(min:width: 1070px) and (max-width: 1319px)';
+//     $non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+
+// @mixin respond-to($media) {
+//     @media only screen and #{$media} {
+//         @content;
+//     }
+// }
+//
+
+$mainPadding: 50px;
+$mainMarginLeft: 14%;
+
+$headerHeight320: 63px;
+$headerHeight570: 65px;
+$headerHeight1070: 80px;
+
+@mixin row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+@mixin Gilroy_Bold {
+  font: {
+    family: 'Gilroy', sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin Gilroy_SemiBold {
+  font: {
+    family: 'Gilroy', sans-serif;
+    weight: 600;
+  }
+}
+
+@mixin Gilroy_Medium {
+  font: {
+    family: 'Gilroy', sans-serif;
+    weight: 500;
+  }
+}
+
+@mixin Roboto_Regular {
+  font: {
+    family: 'Roboto', sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin Roboto_Bold {
+  font: {
+    family: 'Roboto', sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin Roboto_Medium {
+  font: {
+    family: 'Roboto', sans-serif;
+    weight: 500;
+  }
+}
+
+@mixin productCardName {
+  @include Gilroy_Bold;
+  color: #3D3D3D;
+}
+
+@mixin productCardPrice {
+  @include Roboto_Regular;
+  color: #3D3D3D;
+}

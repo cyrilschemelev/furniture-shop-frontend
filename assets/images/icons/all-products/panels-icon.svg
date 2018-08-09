@@ -1,0 +1,40 @@
+<svg width="17" height="17" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-4</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-33684 -9734)">
+<g id="icon-4">
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33684 9734)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33699 9734)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33689 9734)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33694 9734)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path1_fill" transform="translate(33684 9734)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path1_fill" transform="translate(33684 9749)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path2_fill" transform="translate(33684 9740)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path2_fill" transform="translate(33689 9744)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path2_fill" transform="translate(33694 9740)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 2 0L 2 16L 0 16L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 17 0L 17 2L 0 2L 0 0Z"/>
+<path id="path2_fill" d="M 0 0L 7 0L 7 2L 0 2L 0 0Z"/>
+</defs>
+</svg>

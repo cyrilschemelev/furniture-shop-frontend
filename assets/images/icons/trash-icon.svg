@@ -1,0 +1,26 @@
+<svg width="22" height="25" viewBox="0 0 22 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Group.svg</title>
+  <desc>Created using Figma</desc>
+  <g id="Canvas" transform="translate(-34638 -17456)">
+    <g id="Group">
+      <g id="Vector 5 (Stroke)">
+        <use xlink:href="#path0_fill" transform="matrix(-1 1.08857e-16 -1.37773e-16 -1 34658 17481)"/>
+      </g>
+      <g id="trash-icon-header">
+        <use xlink:href="#path1_fill" transform="translate(34638 17460)"/>
+        <use xlink:href="#path3_fill" transform="translate(34645 17456)"/>
+      </g>
+      <g id="Vector 8 (Stroke)">
+        <use xlink:href="#path2_fill" transform="translate(34645 17464)"/>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <path id="path0_fill" fill-rule="evenodd" d="M 0 0L 1.00578 0L 17.0058 0L 18.0116 0L 18.0058 1.00577L 17.8962 20.0058L 17.8904 21L 16.8962 21L 1.11537 21L 0.121125 21L 0.11539 20.0058L 0.00580114 1.00577L 0 0ZM 2.01157 2L 2.10962 19L 15.9019 19L 16 2L 2.01157 2Z"/>
+    <g id="trash_icon_header" x="0" y="20">
+      <path id="path1_fill" fill-rule="evenodd" d="M 22 2L 0 2L 0 0L 22 0L 22 2Z"/>
+      <path id="path3_fill" fill-rule="evenodd" d="M 0 3C 0 1.34315 1.34315 0 3 0L 5 0C 6.65685 0 8 1.34315 8 3L 8 5L 6 5L 6 3C 6 2.44772 5.55228 2 5 2L 3 2C 2.44772 2 2 2.44772 2 3L 2 5L 0 5L 0 3Z"/>
+    </g>
+    <path id="path2_fill" fill-rule="evenodd" d="M 0 13L 0 0L 2 0L 2 13L 0 13ZM 6 13L 6 0L 8 0L 8 13L 6 13Z"/>
+  </defs>
+</svg>

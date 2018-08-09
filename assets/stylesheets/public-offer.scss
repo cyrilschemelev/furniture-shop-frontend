@@ -1,0 +1,15 @@
+.offer-wrapper {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.public-offer {
+  width: 100%;
+  height: 1000px;
+  border: 0;
+  overflow: hidden;
+  html {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,36 @@
+// Roboto
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
+// Gilroy
+@font-face {
+  font-family: 'Gilroy';
+  src: font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.otf');
+  src: font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.eot#iefix') format('embedded-opentype'),
+  font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.woff') format('woff'),
+  font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.woff2') format('woff2'),
+  font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.ttf') format('truetype'),
+  font-url('Gilroy/GilroySemiBold/Gilroy-Semibold.svg#Gilroy-Bold') format('svg');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: font-url('Gilroy/GilroyBold/Gilroy-Bold.otf');
+  src: font-url('Gilroy/GilroyBold/Gilroy-Bold.eot#iefix') format('embedded-opentype'),
+  font-url('Gilroy/GilroyBold/Gilroy-Bold.woff') format('woff'),
+  font-url('Gilroy/GilroyBold/Gilroy-Bold.woff2') format('woff2'),
+  font-url('Gilroy/GilroyBold/Gilroy-Bold.ttf') format('truetype'),
+  font-url('Gilroy/GilroyBold/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: font-url('Gilroy/GilroyMedium/Gilroy-Medium.otf');
+  src: font-url('Gilroy/GilroyMedium/Gilroy-Medium.eot#iefix') format('embedded-opentype'),
+  font-url('Gilroy/GilroyMedium/Gilroy-Medium.woff') format('woff'),
+  font-url('Gilroy/GilroyMedium/Gilroy-Medium.woff2') format('woff2'),
+  font-url('Gilroy/GilroyMedium/Gilroy-Medium.ttf') format('truetype'),
+  font-url('Gilroy/GilroyMedium/Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+  font-weight: 500;
+}

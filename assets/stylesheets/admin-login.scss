@@ -1,0 +1,108 @@
+.panel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .panel-heading {
+    h3 {
+      @include Gilroy_SemiBold;
+      font-size: 40px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 35px;
+    }
+  }
+  .panel-body {
+    p {
+      padding-left: 20px;
+      padding-right: 20px;
+      @include Gilroy_Medium;
+      font-size: 21px;
+      margin-bottom: 22px;
+    }
+    form {
+      fieldset {
+        border: 0;
+        hr {
+          display: none;
+        }
+          input {
+            @include Gilroy_Medium;
+            outline: none;
+            margin-bottom: 25px;
+            font-size: 25px;
+            width: 100%;
+            border: 0;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #4c4444;
+            transition: all .5s;
+              &:focus {
+                border-bottom-color: #0a88df;
+              }
+          }
+        .checkbox {
+          label {
+            @include Gilroy_Medium;
+            font-size: 21px;
+          }
+          input {
+            width: auto;
+            margin-right: 10px;
+            margin-bottom: 0;
+          }
+        }
+        input[type="submit"]{
+          cursor: pointer;
+          border-radius: 15px;
+          border: 0;
+          outline: 0;
+          margin-top: 25px;
+          margin-bottom: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #ffffff;
+          background-color: #000000;
+        }
+      }
+    }
+    form.new_spree_user{
+      p {
+        padding-left: 20px;
+        padding-right: 20px;
+        input.form-control {
+          margin-left: 20px;
+          outline: none;
+          border: 1px solid #4c4444;
+          transition: all .5s;
+          &:focus {
+            border-bottom-color: #0a88df;
+          }
+        }
+        input[type="submit"]{
+          width: 100%;
+          cursor: pointer;
+          border-radius: 15px;
+          border: 0;
+          margin-bottom: 0;
+          outline: 0;
+          margin-top: 25px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: #ffffff;
+          background-color: #000000;
+        }
+      }
+    }
+    .text-center {
+      display: flex;
+      justify-content: center;
+      font-size: 0;
+      flex-direction: column;
+      align-items: center;
+       a {
+         margin-top: 20px;
+         @include Gilroy_Medium;
+         font-size: 20px;
+         color: #3D3D3D;
+       }
+    }
+  }
+}

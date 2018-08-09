@@ -1,0 +1,17 @@
+.react {
+  textarea {
+    background: none;
+    border: 0;
+    width: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    outline:0px !important;
+    -webkit-appearance: none;
+  }
+  textarea[class="p"]{
+    min-height: 100px;
+  }
+}

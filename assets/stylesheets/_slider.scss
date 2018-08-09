@@ -1,0 +1,157 @@
+.header-slider {
+  height: 543px;
+  position: relative;
+  overflow: hidden;
+  @media (min-width: 820px) and (max-width: 1069px) {
+    height: 337px;
+  }
+  @media (min-width: 570px) and (max-width: 819px) {
+    height: 234px;
+  }
+  @media only screen and (max-width: 569px) {
+    height: 309px;
+  }
+  @media (min-width: 1070px) and (max-width: 1440px) {
+    height: calc(100vh - #{$headerHeight1070});
+  }
+  .swiper-wrapper {
+    height: 100%;
+    display: inline-flex;
+  }
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    .slide {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      font-size: 0;
+      z-index: 1;
+      background-position: 50% 50%;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+    &.swiper-slide-active {
+      .slide {
+        transform: scale(1.15);
+        transition: transform 10s ease;
+      }
+    }
+    .bg-shadow {
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .text-container {
+      z-index: 3;
+      position: absolute;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 180px;
+      font-size: 0;
+      width: 100%;
+      @media (min-width: 820px) and (max-width: 1069px) {
+        padding-top: 94px;
+      }
+      @media (min-width: 570px) and (max-width: 819px) {
+        padding-top: 73px;
+      }
+      @media only screen and (max-width: 569px) {
+        padding-top: 116px;
+      }
+      @media (min-width: 1070px) and (max-width: 1319px) {
+        padding-top: 122px;
+      }
+      h3 {
+        @include Gilroy_Bold;
+        font-size: 70px;
+        letter-spacing: 1.4px;
+        line-height: normal;
+        color: #FFFFFF;
+        text-align: center;
+        @media (min-width: 1070px) and (max-width: 1319px) {
+          font-size: 60px;
+          letter-spacing: 1.2px;
+        }
+        @media (min-width: 820px) and (max-width: 1069px) {
+          font-size: 50px;
+        }
+        @media (min-width: 570px) and (max-width: 819px) {
+          font-size: 40px;
+          padding-bottom: 20px;
+        }
+        @media only screen and (max-width: 569px) {
+          font-size: 30px;
+          padding-bottom: 10px;
+        }
+      }
+      span {
+        @include Gilroy_Bold;
+        font-size: 25px;
+        line-height: normal;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-align: center;
+        @media (min-width: 1070px) and (max-width: 1319px) {
+          margin-top: 40px;
+        }
+        @media (min-width: 570px) and (max-width: 819px) {
+          font-size: 22px;
+        }
+        @media only screen and (max-width: 569px) {
+          font-size: 18px;
+          letter-spacing: 0.72px;
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 47px;
+    @media (min-width: 820px) and (max-width: 1069px) {
+      bottom: 37px;
+    }
+    @media (min-width: 570px) and (max-width: 819px) {
+      display: none;
+    }
+    @media only screen and (max-width: 569px) {
+      display: none;
+    }
+    .dot {
+      display: inline-block;
+      padding: 15px;
+      cursor: pointer;
+      span {
+        display: inline-block;
+        background-color: #9f9f9f;
+        @media (min-width: 1320px) {
+          width: 74px;
+        }
+        @media (min-width: 1070px) and (max-width: 1319px) {
+          width: 54px;
+        }
+        @media (min-width: 820px) and (max-width: 1069px) {
+          width: 34px;
+        }
+        height: 3px;
+        //&:last-child {
+        //  margin-right: 0;
+        //}
+      }
+      &.active {
+        span {
+          background-color: #ffffff !important;
+        }
+      }
+    }
+  }
+}

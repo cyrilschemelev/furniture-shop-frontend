@@ -1,0 +1,33 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow-left</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-32808 -505)">
+<rect x="32808" y="505" width="50" height="50" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 32758 -1543L 34078 -1543L 34078 1527L 32758 1527L 32758 -1543Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="home 1320 " clip-path="url(#clip-0)">
+<path d="M 32758 -1543L 34078 -1543L 34078 1527L 32758 1527L 32758 -1543Z" fill="#FFFFFF"/>
+<g id="popular products">
+<g id="arrow-left">
+<g id="Rectangle 4">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(1 -5.34378e-24 5.34378e-24 1 32808 505)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(1 -5.34378e-24 5.34378e-24 1 32808 505)" fill="#BEBEBE"/>
+</g>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path2_stroke" transform="matrix(0.707107 -0.707107 0.707107 0.707107 32826.8 530.032)" fill="#BEBEBE"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 50 0L 50 50L 0 50L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 50 0L 52 0L 52 -2L 50 -2L 50 0ZM 50 50L 50 52L 52 52L 52 50L 50 50ZM 0 50L -2 50L -2 52L 0 52L 0 50ZM 0 2L 50 2L 50 -2L 0 -2L 0 2ZM 48 0L 48 50L 52 50L 52 0L 48 0ZM 50 48L 0 48L 0 52L 50 52L 50 48ZM 2 50L 2 0L -2 0L -2 50L 2 50Z"/>
+<path id="path2_stroke" d="M -2.13163e-13 0L -2.13163e-13 -1L -1 -1L -1 0L -2.13163e-13 0ZM 1 16.25L 1 0L -1 0L -1 16.25L 1 16.25ZM -2.13163e-13 1L 16.25 1L 16.25 -1L -2.13163e-13 -1L -2.13163e-13 1Z"/>
+</defs>
+</svg>

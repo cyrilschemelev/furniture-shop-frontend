@@ -1,0 +1,21 @@
+<svg width="17" height="11" viewBox="0 0 17 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-33269 -9737)">
+<g id="icon-2">
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33269 9739)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path0_fill" transform="translate(33284 9739)"/>
+</g>
+<g id="Rectangle 5">
+<use xlink:href="#path1_fill" transform="translate(33269 9737)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 2 0L 2 9L 0 9L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 17 0L 17 2L 0 2L 0 0Z"/>
+</defs>
+</svg>

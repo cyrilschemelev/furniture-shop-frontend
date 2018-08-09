@@ -1,0 +1,26 @@
+.nav.navbar-nav {
+  .dropdown.user.user-menu {
+    .dropdown-menu {
+      min-width: 290px;
+      .user-body {
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #478DC1!important;
+}
+div[data-hook="admin_product_form_name"] {
+  display: block;
+  width: 100%;
+  clear: both;
+  img {
+    display: block;
+  }
+}
+div[data-hook="admin_product_form_left"] {
+  padding-bottom: 30px;
+}
+
+

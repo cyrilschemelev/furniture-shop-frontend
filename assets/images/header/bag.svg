@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bag</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-30219 1525)">
+<rect x="30219" y="-1525" width="24" height="24" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 29216 -1543L 30286 -1543L 30286 939L 29216 939L 29216 -1543Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="home 1070" clip-path="url(#clip-0)">
+<path d="M 29216 -1543L 30286 -1543L 30286 939L 29216 939L 29216 -1543Z" fill="#FFFFFF"/>
+<g id="header 1070">
+<g id="bg">
+<use xlink:href="#path0_fill" transform="translate(29216 -1543)" fill="#FFFFFF"/>
+</g>
+<g id="menu">
+<g id="bag">
+<g id="Vector 5">
+<use xlink:href="#path1_stroke" transform="translate(30221 -1518)"/>
+</g>
+<g id="Ellipse 3">
+<use xlink:href="#path2_stroke" transform="translate(30227 -1524)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 1070 0L 1070 65L 0 65L 0 0Z"/>
+<path id="path1_stroke" d="M 0.904762 0L 0.904762 -1L -0.040288 -1L -0.0936431 -0.0564574L 0.904762 0ZM 0 16L -0.998405 15.9435L -1.05815 17L 0 17L 0 16ZM 20 16L 20 17L 21.0581 17L 20.9984 15.9435L 20 16ZM 19.0952 0L 20.0936 -0.0564574L 20.0403 -1L 19.0952 -1L 19.0952 0ZM -0.0936431 -0.0564574L -0.998405 15.9435L 0.998405 16.0565L 1.90317 0.0564574L -0.0936431 -0.0564574ZM 0 17L 20 17L 20 15L 0 15L 0 17ZM 20.9984 15.9435L 20.0936 -0.0564574L 18.0968 0.0564574L 19.0016 16.0565L 20.9984 15.9435ZM 19.0952 -1L 0.904762 -1L 0.904762 1L 19.0952 1L 19.0952 -1Z"/>
+<path id="path2_stroke" d="M 1 4C 1 2.34315 2.34315 1 4 1L 4 -1C 1.23858 -1 -1 1.23858 -1 4L 1 4ZM 4 1C 5.65685 1 7 2.34315 7 4L 9 4C 9 1.23858 6.76142 -1 4 -1L 4 1ZM 7 4L 7 9L 9 9L 9 4L 7 4ZM -1 4L -1 9L 1 9L 1 4L -1 4Z"/>
+</defs>
+</svg>

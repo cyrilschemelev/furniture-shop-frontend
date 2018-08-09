@@ -1,0 +1,147 @@
+.shiping-top-block {
+  text-align: center;
+  font-size: 0;
+  margin-top: 75px;
+  h1 {
+    @include Gilroy_Bold;
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+}
+
+.shiping-main-menu {
+  margin: 90px auto 100px;
+  border-bottom: 1px solid #C4C4C4;
+  width: 65%;
+  @media (min-width: 1070px) and (max-width: 1319px) {
+    width: 80%;
+    margin: 65px auto 80px;
+  }
+  @media (min-width: 820px) and (max-width: 1069px) {
+    width: 75%;
+    margin: 40px auto 70px;
+  }
+  @media (min-width: 570px) and (max-width: 819px) {
+    width: 100%;
+    margin: 25px auto 60px;
+  }
+  @media (max-width: 569px) {
+    width: 100%;
+    margin: 25px auto 50px;
+  }
+  .main-menu-elem {
+    cursor: pointer;
+    border-top: 1px solid #C4C4C4;
+    //padding: 0 0 0 0;
+    @media (min-width: 570px) and (max-width: 819px) {
+      padding: 0 30px 0 30px;
+    }
+    @media (max-width: 569px) {
+      padding: 0 20px 0 20px;
+    }
+    //padding-left: 20px;
+    //padding-right: 20px;
+    .title {
+      font-size: 0;
+      display: flex;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      align-items: center;
+      justify-content: space-between;
+      h2 {
+        @include Gilroy_SemiBold;
+        font-size: 20px;
+        letter-spacing: 0.4px;
+      }
+      img {
+        margin-right: 5px;
+        transition: all .5s;
+        transform: rotate(90deg);
+        &.active {
+          transform: rotate(270deg);
+        }
+      }
+    }
+    .shiping-drop-menu {
+      display: none;
+      font-size: 0;
+      .top-text {
+        margin-bottom: 30px;
+        h3 {
+          @include Gilroy_SemiBold;
+          font-size: 17px;
+          margin-bottom: 22px;
+          margin-top: 50px;
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+        p {
+          @include Roboto_Regular;
+          line-height: 24px;
+          font-size: 16px;
+          letter-spacing: 0.48px;
+        }
+        img {
+          $margin15: 15px;
+          margin-top: 22px;
+          @media (min-width: 1070px){
+            width: calc(50% - #{$margin15});
+            &:nth-child(odd) {
+              margin-right: $margin15;
+            }
+            &:nth-child(even) {
+              margin-left: $margin15;
+            }
+          }
+          @media (max-width: 1069px) {
+            width: 100%;
+            //margin-right: 0;
+            //margin-left: 0;
+
+          }
+        }
+      }
+      //.image-container {
+      //  display: flex;
+      //  flex-direction: row;
+      //  justify-content: space-between;
+      //  margin-top: 27px;
+      //    .image-block {
+      //      background-size: cover;
+      //      background-position: center center;
+      //      width: 419.19px;
+      //      height: 358.55px;
+      //      background-color: #e1e2e6;
+      //    }
+      //}
+      //.bottom-text {
+      //  margin-top: 50px;
+      //  padding-bottom: 30px;
+      //  h5 {
+      //    @include Gilroy_SemiBold;
+      //    font-size: 17px;
+      //    margin-bottom: 22px;
+      //  }
+      //  span {
+      //    @include Roboto_Regular;
+      //    line-height: 24px;
+      //    font-size: 16px;
+      //    letter-spacing: 0.48px;
+      //  }
+      //}
+      &.delivery-menu, &.deadline-menu {
+        display: none;
+        font-size: 0;
+        span {
+          @include Roboto_Regular;
+          line-height: 24px;
+          display: block;
+          font-size: 16px;
+          letter-spacing: 0.48px;
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+}
